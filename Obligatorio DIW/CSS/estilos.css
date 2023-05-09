@@ -1,0 +1,45 @@
+/* Estilos para el cuerpo de la página */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    max-width: 1440px;
+  }
+ 
+  /* Estilos para la barra de navegación */
+ .navegacion{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 15px;
+    transition: .5s, color .10s;
+    
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #575656;
+    border-bottom-color: black;
+  }
+  
+  /* Estilos para las secciones de la página */
+  
+  section {
+    display: block;
+    padding: 50px;
+    margin-top: 50px;
+    
+  }
+  
+ 
